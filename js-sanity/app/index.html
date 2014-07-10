@@ -43,50 +43,74 @@
   <div class="reveal">
     <div class="slides">
 
-      <section class="title">
-        <h1>Javascript Sanity!</h1>
-        <h3>Using Backbone and Marionette to Build Structured, Maintainable Map Applications</h3>
+      <section class="title" >
+        <h1 style="color:#f3be40;text-shadow:none;">Javascript Sanity!</h1>
+        <h3 style="color:#f3be40;text-shadow:none;">Using Backbone and Marionette to Build Structured, Maintainable Map Applications</h3>
         <p>
           <br>
-          <h4>Dave Bouwman :: Washington DC R&amp;D Center</h4>
+          <h4 style="color:#f3be40;text-shadow:none;">Dave Bouwman :: Washington DC R&amp;D Center :: @dbouwman</h4>
         </p>
       </section>
 
-      <section data-markdown>
-        # I gave this talk at a dev meetup...
-
-
-        ## with lots code...
-
-
-        ### and people said...
-      </section>
-
-      <section  data-background="http://coarpk.files.wordpress.com/2014/05/drinking-from-firehose.jpg"></section>
-      
-      <section data-background="images/minimalistic_cats_space_suit.jpg">
-        <h1 style="color:white;">Javascript Sanity!</h1>
-        <h3 style="color:white;">(Now with 100% less fire-hose!) </h3>
+      <section >
+        <h2>Last time...</h2>
+        <div class="fragment polaroid  rotatecw">
+          <p>complex diagrams!!!!</p>
+          <img src="images/last-time1.png">
+        </div>
       </section>
 
       <section >
-        <h1>Goals</h1>
-        <div class="fragment">
-          <h2 >UX Driven Development</h2>
-          <ul >
-            <li>fast page load</li>
-            <li>compile javascript </li>
-            <li>minimize requests</li>
-            <li>prefetch!</li>
-          </ul>
-        </div>
+        <h2>Last time...</h2>
         
+        <div class="polaroid  rotateccw">
+          <p> dense code!!! </p>
+          <img src="images/last-time2.png">
+        </div>
+      </section>
+
+
+      <section >
+        <h2>Last time...</h2>
+        <div class="polaroid  rotatecw">
+          <p> refreshing! </p>
+          <img src="http://coarpk.files.wordpress.com/2014/05/drinking-from-firehose.jpg">
+        </div>
+      </section>
+
+      <section data-background="#1f1f1f">
+        <h1 class="center" style="color:white;">Change things up...</h1>
+      </section>
+
+      <section  data-background="images/minimalistic_cats_space_suit.jpg"></section>
+      
+      <section data-background="images/minimalistic_cats_space_suit.jpg">
+        <h1 class="center" style="color:white;">Javascript Sanity!</h1>
+        <h2 class="center" style="color:white;">Backbone vs Angular!</h2>
+        <h4 class="center" style="color:white;">(Now with 100% less fire-hose!) </h4>
+      </section>
+      
+      <section data-background="images/minimalistic_cats_space_suit.jpg">
+        <h3 class="center" style="color:white;">or...</h3>
+        <h1 class="center" style="color:white;">How we built ArcGIS for Open Data </h3>
+      </section>
+
+      <section >
+        <h1>User Experience</h1>
+
+          <ul >
+            <li class="fragment">fast page load</li>
+            <li class="fragment">compile javascript &amp; css </li>
+            <li class="fragment">minimize requests</li>
+            <li class="fragment">prefetch!</li>
+          </ul>
         
       </section>
 
       <section class="center">
-        <h2>lets look at a site</h2>
-        <h2><a href="http://d3.d3.opendata.arcgis.com" target="_blank">Detroit Open Data</a></h2>
+        <h2 class="center">Data-Driven Detroit</h2>
+        <a href="http://d3.d3.opendata.arcgis.com" target="_blank"><img src="images/d3-site.png" alt=""></a>
+  
       </section>
 
       <section>
@@ -100,7 +124,16 @@
         </ul>
       </section>
 
-      <section data-background="https://farm9.staticflickr.com/8100/8504153041_dd0ae0fcce_b.jpg"></section>
+      <section data-background="images/minimalistic_cats_space_suit.jpg">
+        <h3 style="color:white;">space cats need visuals...</h3>
+      </section>
+
+      <section data-background="images/minimalistic_cats_space_suit.jpg">
+        <h3 style="color:white;">...chop down a tree with backbone?</h3>
+        <div class="fragment polaroid right rotatecw">
+          <img src="https://farm9.staticflickr.com/8100/8504153041_dd0ae0fcce_b.jpg">
+        </div>
+      </section>
 
 
       <section>
@@ -114,7 +147,13 @@
         </ul>
       </section>
 
-      <section data-background="https://farm9.staticflickr.com/8029/8067085392_0428d95646_b.jpg"></section>
+
+      <section data-background="images/minimalistic_cats_space_suit.jpg">
+        <h3 style="color:white;">and with marionette...</h3>
+        <div class="fragment polaroid right rotatecw">
+          <img src="https://farm6.staticflickr.com/5082/5290190254_d737d7a557_b.jpg">
+        </div>
+      </section>
 
 
       <section>
@@ -161,35 +200,50 @@
       <section>
         <h1>Part Deux!</h1>
         <h1>Admin UI</h1>
-        <h2><a href="https://opendatadev.arcgis.com/admin/" target="_blank"> View Beta site</a></h2>
+        <h2><a href="http://localdev.opendata.arcgis.com:9000" target="_blank"> View Beta site</a></h2>
       </section>
 
-      <section class="center">
+      <section >
         <h1>AngularJs</h1>
         <ul>
           <li class="fragment">"declarative" framework</li>
-          <li class="fragment">(magic) data binding</li>
+          <li class="fragment">data binding (aka magic)</li>
           <li class="fragment">unit and e2e testing</li>
           <li class="fragment">future aligned</li>
         </ul>
       </section>
 
 
+      <section data-background="images/minimalistic_cats_space_suit.jpg">
+        <h3 style="color:white;">show me angularjs?</h3>
+        <div class="fragment polaroid right rotatecw">
+          <p>gas-powered sharp-thing!!!</p>
+          <img src="https://oregonloggingconference.files.wordpress.com/2012/02/xt445l-2_080-large.jpg">
+        </div>
+      </section>
+
+
+    <!--   <section data-background="https://farm9.staticflickr.com/8100/8504153041_dd0ae0fcce_b.jpg">
+      </section>
+
+      <section data-background="https://farm6.staticflickr.com/5082/5290190254_d737d7a557_b.jpg">
+      </section>
+
+      <section data-background="https://oregonloggingconference.files.wordpress.com/2012/02/xt445l-2_080-large.jpg"></section> -->
+
+      <section>
+        <a class="jsbin-embed" href="http://jsbin.com/mifake/1/embed?html,output&height=900px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+      </section>
+
+      <section data-background="images/happy-dev.gif">
+        
+      </section>
+
       <section> 
         <h2>Angular vs Backbone</h2>
         <img src="images/angular-vs-bb.png">
-       
       </section>
 
-      <section data-background="https://farm9.staticflickr.com/8100/8504153041_dd0ae0fcce_b.jpg">
-        <h1>BackboneJs</h1>
-      </section>
-
-      <section data-background="https://farm9.staticflickr.com/8029/8067085392_0428d95646_b.jpg">
-        <h1>Marionette</h1>
-      </section>
-
-      <section data-background="https://oregonloggingconference.files.wordpress.com/2012/02/xt445l-2_080-large.jpg"></section>
 
       <section>
         <h1>Pros:</h1>
@@ -198,32 +252,47 @@
           <li class="fragment">Dozens of books</li>
           <li class="fragment">Screen casts</li>
           <li class="fragment">lots of components</li>
+          <li class="fragment">Separation of Concerns!!</li>
         </ul>
       </section>
 
+      <section data-background="images/beard.gif"></section>
+
       <section>
-        <h1>Pros:</h1>
+        <h1>Engineering:</h1>
         <ul>
           <li class="fragment">Separation of Concerns!!</li>
           <li class="fragment">Dependency Injection!!</li>
-          <li class="fragment">factories, services</li>
-          <li class="fragment">httpbackend ftw</li>
-          <li class="fragment">super flexible</li>
+          <li class="fragment">Providers, Factories, Services</li>
         </ul>
+
+        
       </section>
-      <section data-background="images/beard.gif"></section>
+      
       <section>
-        <h1>Cons</h1>
+        <h1>code stack</h1>
         <ul>
-          <li class="fragment">Complexity!!!!!</li>
-          <li class="fragment">Hello World != Prod App</li>
-          <li class="fragment">super flexible</li>
+          <li class="fragment">html in the page</li>
+          <li class="fragment">controller</li>
+          <li class="fragment">service</li>
+          <li class="fragment">http service</li>
+          <li class="fragment">httpbackend</li>
         </ul>
       </section>
 
-      <section class="center"> 
-        <img src="http://www.bennadel.com/resources/uploads/2013/feelings_about_angularjs_over_time.png" >
-        <h2 >Me. June 2014</h2>
+
+      <section>
+        <h1>Cons</h1>
+        <ul>
+          <li class="fragment">Much Magic!!!!</li>
+          <li class="fragment">Hello World != Prod App</li>
+          <li class="fragment">Super Flexible!!!!</li>
+          <li class="fragment">Versions!!!!</li>
+        </ul>
+      </section>
+
+      <section > 
+        <img src="http://www.bennadel.com/resources/uploads/2013/feelings_about_angularjs_over_time.png" style="min-height:850px;">
       </section>
 
       <section>
@@ -236,6 +305,22 @@
           </ul>
       </section>
 
+      <section>
+        <h2>Use if...</h2>
+        <ul>
+          <li class="fragment">lots of time</li>
+          <li class="fragment">want to level up</li>
+          <li class="fragment">no old IE</li>
+          <li class="fragment">the future, today</li>
+        </ul>
+      </section>
+
+
+      <section data-background="images/minimalistic_cats_space_suit.jpg">
+        <h1 style="color:white;">Questions????</h3>
+        <br>
+        <h4 style="color:white;">Session Id: 4998 </h4>
+      </section>
 
   </div>
 </div>
@@ -251,7 +336,11 @@
         progress: true,
         history: true,
         center: true,
-
+        margin:0.1,
+        width: 1600,
+        height: 900,
+        minScale: 0.2,
+        maxScale: 1.0,
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
         transitionSpeed: 'fast',
