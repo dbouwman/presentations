@@ -1,0 +1,68 @@
+
+
+.reveal li{
+  font-size:2em;
+  line-height:1.1em;
+}
+.reveal section img{
+  border: none;
+}
+.reveal iframe{
+  height:3000px;
+}
+
+.reveal pre{
+  font-size:1em;
+  box-shadow: none;
+}
+.reveal pre code{
+  max-height:900px;
+}
+
+pre code{
+  background:none;
+  color:#000000;
+}
+.center{ text-align: center}
+
+.rotatecw{
+
+  transform:rotate(4deg);
+-ms-transform:rotate(4deg); /* IE 9 */
+-webkit-transform:rotate(4deg);
+}
+
+.rotateccw{
+
+  transform:rotate(-7deg);
+-ms-transform:rotate(-7deg); /* IE 9 */
+-webkit-transform:rotate(-7deg);
+}
+
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+.reveal section .polaroid img  {
+  position: relative;
+  max-width:66%;
+}
+ 
+.reveal section .polaroid img {
+  border: 10px solid #eee;
+  border-bottom: 45px solid #eee;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+ 
+.reveal section .polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 12px;
+  z-index:10;
+
+}
